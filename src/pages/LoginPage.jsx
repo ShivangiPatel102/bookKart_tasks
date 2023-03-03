@@ -50,6 +50,10 @@ function Loginpage() {
       </Grid>
 
       <Grid item xs={12}>
+        <TextField label="Username" name="name" onChange={handleChange}></TextField>
+      </Grid>
+
+      <Grid item xs={12}>
         <TextField label="Email" name="email" onChange={handleChange} type="email" ></TextField>
       </Grid>
 
